@@ -2,7 +2,7 @@ const { isMainThread, parentPort } = require('worker_threads');
 const https = require("https")
 
 if (isMainThread) {
- throw new Error("Not a worker");
+ throw new Error("Not a worker :(");
 }
 
 parentPort.on('message', (data) => {
