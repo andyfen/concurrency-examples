@@ -21,7 +21,7 @@ type job struct {
 	PostID int
 }
 
-const concurrency = 5
+const concurrency = 100
 
 func main() {
 	postCount := 100
